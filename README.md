@@ -1,54 +1,81 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# The-Dev-Post
 
-## 🚀 Quick start
+My personal Gatsby portfolio. Forked from [Gatsby Minimal Starter](https://github.com/pheezx/Gatsby-Portfolio).
 
-1.  **Create a Gatsby site.**
+## 👇 Prerequisites
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- Node.js - 14.18.0, v16.12.0, or higher.
+- Text editor - If you don’t have a preferred code editor yet, visit the [VS Code](https://code.visualstudio.com/) site and download the version appropriate for your platform.
+- Gatsby Terminal - Gatsby is accessed through its command-line interface ([CLI](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)).
+- Git - Follow this guide and [install](https://www.gatsbyjs.com/docs/tutorial/part-0/#git) git depending on your operating system.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## 🛠️ Setup
 
-2.  **Start developing.**
+```
+gatsby new
+```
 
-    Navigate into your new site’s directory and start it up.
+### Compiles and serves a development build of your site that reflects your source code changes in the browser in real time at `http://localhost:8000`. 
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```
+gatsby develop
+```
 
-3.  **Open the code and start customizing!**
+### Compiles your site for production so it can be deployed.
 
-    Your site is now running at http://localhost:8000!
+```
+gatsby build
+```
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+### Serves the production build of your site for testing prior to deployment.  
 
-4.  **Learn more**
+``` 
+gatsby serve
+```
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Show helpful environment information which is required in bug reports.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+gatsby info
+```
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Delete the .cache and public directories. 
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+gatsby clean
+```
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Open a Node.js REPL (interactive shell) with context of your Gatsby environment.
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+```
+gatsby repl
+```
 
-## 🚀 Quick start (Gatsby Cloud)
+## 👨‍💻 Contributing
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+Contributions are always welcome...
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- Fork the repository
+- Improve current program by
+- Improving functionality
+- Adding a new feature
+- Bug fixes
+- Push your work and Create a Pull Request
+
+## 🛡️ License
+
+This project is under the MIT License (MIT). See the LICENSE for more information.
+
+## 🎓 Learning Gatsby
+
+Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
+
+- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+
+- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+
+## 💫 Deploy
+
+[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/products/cloud/)
+
+Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
