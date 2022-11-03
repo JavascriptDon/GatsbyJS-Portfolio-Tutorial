@@ -1,4 +1,4 @@
-# The-Dev-Post
+# Responsive-GatsbyJS-Portfolio-Tutorial
 
 My personal Gatsby portfolio. Forked from [Gatsby Minimal Starter](https://github.com/pheezx/Gatsby-Portfolio).
 
