@@ -8,8 +8,16 @@ import Link from "@material-ui/core/Link";
 
 const socialItems = [
   { icon: GithubIcon, url: "https://github.com/JavascriptDon", name: "github" },
-  { icon: TwitterIcon, url: "https://twitter.com/helitha_hr01010", name: "twitter" },
-  { icon: LinkedInIcon, url: "https://www.linkedin.com/in/helitharupasinghe/", name: "linkedin" },
+  {
+    icon: TwitterIcon,
+    url: "https://twitter.com/helitha_hr01010",
+    name: "twitter",
+  },
+  {
+    icon: LinkedInIcon,
+    url: "https://www.linkedin.com/in/helitharupasinghe/",
+    name: "linkedin",
+  },
 ];
 
 export default function Social({ direction }) {

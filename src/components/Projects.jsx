@@ -22,6 +22,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     marginTop: 20,
     padding: 0,
+    "&:hover": {
+      transform: "scale(1.1)",
+      transition: "all 0.2s ease-in-out",
+    },
   },
   links: {
     marginRight: "auto",
@@ -29,6 +33,10 @@ const useStyles = makeStyles((theme) => ({
   tag: {
     marginRight: 5,
     marginBottom: 5,
+    "&:hover": {
+      backgroundColor: "rgb(128,0,128)",
+      color: "#ffffff",
+    },
   },
 }));
 
@@ -103,12 +111,57 @@ export default function Projects() {
 
 const projectsData = [
   {
+    title: "Covid 19 Tracker App",
+    description:
+      "Track the spread of the corona-virus with the Covid-19 Tracker App. A statistical data display and notifier app for the Covid-19 pandemic.",
+    imageUrl:
+      "https://images.theconversation.com/files/453423/original/file-20220321-14981-gwxv7z.jpg?ixlib=rb-1.1.0&rect=0%2C0%2C2448%2C1224&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip",
+    imageAlt: "Project 1 Image",
+    tags: [
+      "React-Hooks",
+      "React-ChartJS-2",
+      "ChartJS",
+      "Material-UI",
+      "React-Leaflet",
+      "Sass",
+    ],
+    links: [
+      {
+        icon: GitHubIcon,
+        href: "https://github.com/hr21don/Covid-19-Tracker-App",
+      },
+      {
+        icon: OpenInNewIcon,
+        href: "https://keen-torvalds-cb9049.netlify.app/",
+      },
+    ],
+  },
+  {
+    title: "Secrets App",
+    description:
+      "An end-to-end application where a user can sign up and write messages anonymously. Don't keep your secrets, share them anonymously!",
+    imageAlt: "Project 2 Image",
+    imageUrl:
+      "https://media.istockphoto.com/photos/blue-circuitry-digital-lock-on-binary-code-picture-id913017342?k=20&m=913017342&s=612x612&w=0&h=72eO232O65-x8wEBtnNEYNWS-M8xlNfNBfSHUVoKAPw=",
+    tags: ["MongoDB", "Express.js", "Node.js", "EJS", "Mongoose", "Passport"],
+    links: [
+      {
+        icon: GitHubIcon,
+        href: "https://github.com/JavascriptDon/Level_Six_Security_Complete",
+      },
+      {
+        icon: OpenInNewIcon,
+        href: "https://secrets-live.herokuapp.com/",
+      },
+    ],
+  },
+  {
     title: "ToDoList App",
     description:
       "Hit the ground running with pre-made templates for your work To-Do list. Fastest way to get started is to fork the github repo provided below!",
+    imageAlt: "Project 3 Image",
     imageUrl:
       "https://media.istockphoto.com/photos/businessman-hand-working-laptop-on-wooden-desk-in-office-in-morning-picture-id812947940?b=1&k=20&m=812947940&s=170667a&w=0&h=8HeW0gB0caRsPvQrnTREP7rl66znIF7dWd1z9ivNihk=",
-    imageAlt: "Project 1 Image",
     tags: ["Javascript", "EJS", "HTML5"],
     links: [
       {
@@ -125,10 +178,10 @@ const projectsData = [
     title: "React-Redux-App",
     description:
       "An app with real-time chat functionality for users to authenticate & authorize themselves using Google API's. React is used along with Redux to Power the Front-End!",
-    imageAlt: "Project 2 Image",
+    imageAlt: "Project 4 Image",
     imageUrl:
       "https://images.unsplash.com/photo-1551808525-51a94da548ce?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Z29vZ2xlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
-    tags: ["React", "Redux", "Firebase" , "Material-UI"],
+    tags: ["React.js", "Redux", "Firebase", "Material-UI"],
     links: [
       {
         icon: GitHubIcon,
@@ -137,25 +190,6 @@ const projectsData = [
       {
         icon: OpenInNewIcon,
         href: "https://blissful-tereshkova-989460.netlify.app/",
-      },
-    ],
-  },
-  {
-    title: "The Gatsby Blog ",
-    description:
-      "Making a blog has never been simpler. Save time and money by using The Gatsby Blog template! Powered by React and GraphQL, Gatsby gives you everything you need to build and launch your next post.",
-    imageAlt: "Project 3 Image",
-    imageUrl:
-      "https://media.istockphoto.com/photos/love-working-from-home-picture-id1182641010?b=1&k=20&m=1182641010&s=170667a&w=0&h=8vcHvvDfC7HnyZb24As-jdr7z8tNu8Xr5JJRvHYVXEw=",
-    tags: ["Javascript", "SCSS", "GatsbyJS"],
-    links: [
-      {
-        icon: GitHubIcon,
-        href: "https://github.com/JavascriptDon/The-Gatsby-Bootcamp",
-      },
-      {
-        icon: OpenInNewIcon,
-        href: "https://hungry-benz-a848b4.netlify.app/",
       },
     ],
   },

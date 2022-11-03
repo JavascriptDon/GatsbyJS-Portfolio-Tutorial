@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
     height: "100%",
   },
   overlay: {
-    backgroundColor: "rgba(0,0,0,0.2)",
+    backgroundColor: "rgb(0,0,0,0.2)",
     height: "100%",
     width: "100%",
     position: "absolute",
@@ -62,10 +62,11 @@ export default function HeroSection() {
           <Zoom in={shouldShow}>
             <Grid item sm={8}>
               <Typography component="h1" variant="h3">
-                Hi, my name is Helitha Rupasinghe. 
+                Hi, my name is Helitha Rupasinghe.
               </Typography>
               <Typography variant="h6">
-              I build web applications, provide solutions and I love all things code.
+                I build web applications, provide solutions and I love all
+                things code.
               </Typography>
               <Box my={2}>
                 <Button
